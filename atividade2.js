@@ -6,7 +6,13 @@ console.log(situacao)
 
 //Atividade 2//
 
-const statusNota = (nota) => (nota >= 7 ? "Aprovado" : "Reprovado")
+const statusNota = (nota) => (nota >= 7 ? "Aprovado" : "Reprovado");
 
-console.log(statusNota)
+console.log(statusNota(8,7)); 
+
+//Atividade 3//
+const textoBotao = (logado) => (logado ? "Sair" : "Entrar");
+
+console.log(textoBotao(false,true)); 
+
 
